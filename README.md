@@ -27,7 +27,7 @@ Word add-ins are integrations built by third parties into Word by using [Word Ja
 
 ## Use the add-in project
 
-The add-in project that you've created contains code for a basic task pane add-in.
+The add-in project that you've created contains sample code for a basic task pane add-in.
 
 ## Explore the add-in code
 
@@ -35,8 +35,7 @@ To explore an Office add-in project, you can start with the key files listed bel
 
 - The `./manifest.xml` file in the root directory of the project defines the settings and capabilities of the add-in.  <br>You can check whether your manifest file is valid by selecting **Validate Manifest File** option from the Office Add-ins Development Kit.
 - The `./src/taskpane/taskpane.html` file contains the HTML markup for the task pane.
-- The `./src/taskpane/taskpane.css` file contains the CSS that's applied to content in the task pane.
-- The `./src/taskpane/taskpane.js` file contains the Office JavaScript API code that facilitates interaction between the task pane and the Word application.
+- The `./src/taskpane/**/*.jsx` file contains the react code and Office JavaScript API code that facilitates interaction between the task pane and the Word application.
 
 ## Troubleshooting
 
