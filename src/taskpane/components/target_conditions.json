@@ -1,0 +1,128 @@
+{
+    "targetconditions": [
+        {
+            "title": "condition-1",
+            "content": "On the basis of strategic planning with clearly defined sales targets and key performance indicators, regular sales controlling reports are submitted to the management so that appropriate operational and marketing control measures can be taken."
+        },
+        {
+            "title": "condition-2",
+            "content": "Pursuant to AT 9 (9) ZAG-MaRisk, a company must adequately manage the risks associated with outsourcing and properly monitor the execution of outsourced activities and processes. In the case of material outsourcing, this also includes the ongoing monitoring of the outsourcing company's performance on the basis of criteria to be provided (e.g. key performance indicators, key risk indicators) and contractually agreed information from the outsourcing company; the quality of the services provided must be assessed regularly."
+        },
+        {
+            "title": "condition-3",
+            "content": "Pursuant to Section 6 (1) of the German Money Laundering Act, appropriate safeguards must be created by establishing corresponding principles, procedures and controls. BaFin's interpretation and application notes specify the requirements for dealing with risks, due diligence obligations, reporting obligations, documentation requirements and other requirements."
+        },
+        {
+            "title": "condition-4",
+            "content": "Pursuant to Section 5 (1), the obliged entity must regularly identify and assess the relevant risks of money laundering and terrorist financing. In particular, the factors set out in Annexes 1 and 2 AML-Act must be taken into account."
+        },
+        {
+            "title": "condition-5",
+            "content": "When conducting a due diligence, there are risk-based requirements as to which documents must be submitted as part of the due diligence process. This applies to both the client and the merchant assessment."
+        },
+        {
+            "title": "condition-6",
+            "content": "According to the interpretation and application notes on the Anti-Money Laundering Act, the anti-money laundering officer must be involved in the creation and further development of money laundering-relevant requirements and granted an unrestricted right to information (see 3.2.4 of BaFin's AuA). The internal money laundering guideline (version 1.1 of 11 January 2024) specifies under no. 3 Money Laundering Officer that the AMLO must monitor compliance with the principles established and measures taken (\"know-your-customer principle\") and continue to develop them. This applies both to identification during the initiation of the customer relationship with natural and legal persons as well as in the context of ongoing transactions."
+        },
+        {
+            "title": "condition-7",
+            "content": "There are regulations in the form of individual guidelines and process specifications that ensure compliance with the requirements of PSD2 and the ZAG as well as the associated BaFin circulars (in particular circular 03/2022 on the reporting of serious payment security incidents pursuant to Section 54 (1) ZAG). Furthermore, there are regulations for the identification and onboarding of customers."
+        },
+        {
+            "title": "condition-8",
+            "content": "Evidence is available for the customer that, on the one hand, fulfils the requirements of \u00a7 11 et seq. of the German Anti-Money Laundering Act (GWG) and, on the other hand, demonstrates compliance with internal and external requirements within the scope of the existing business relationship. In particular, this includes compliance with the Group Business Restrictions Policy and proof of continuous monitoring of the customer relationship."
+        },
+        {
+            "title": "condition-9",
+            "content": "According to AT 4.3.1 MaRisk, clear regulations on tasks, competences, responsibilities and communication channels must be established. Functional descriptions are expected for this purpose if no other documents are available."
+        },
+        {
+            "title": "condition-10",
+            "content": "Pursuant to AT 9 no. 14 MaRisk an outsourcing register has to be implemented including the information specified in the EBA guidelines (EBA/GL/2019/02 Number 54 and 55). The outsourcing register is regularly updated."
+        },
+        {
+            "title": "condition-11",
+            "content": "Pursuant to AT 9 (2) ZAG-MaRisk, when outsourcing core institutional areas, a company must intensively examine whether and how the outsourced activities and processes can be included in risk management. Smaller, less complex institutions can use qualitative approaches for the risk analysis."
+        },
+        {
+            "title": "condition-12",
+            "content": "Evidence is available for the merchant that, on the one hand, fulfils the requirements of \u00a7 11 et seq. of the German Anti-Money Laundering Act (GWG) and, on the other hand, demonstrates compliance with internal and external requirements within the scope of the existing business relationship. In particular, this includes compliance with the Group Business Restrictions Policy and proof of continuous monitoring of the customer relationship."
+        },
+        {
+            "title": "condition-13",
+            "content": "Pursuant to AT 9 No. 12 in conjunction with No. 13 MaRisk, the central outsourcing officer or central outsourcing management must implement control and monitoring processes and prepare a report on significant outsourcing to the Executive Board at least once a year."
+        },
+        {
+            "title": "condition-14",
+            "content": "Pursuant to AT 9 (7) lit. a)-n) ZAG-MaRisk, the contractual provisions applicable to material outsourcing are complied with. In addition, the provisions of No. 9.8 of the ZAIT result in further contractual requirements that apply to the outsourcing of IT activities or IT processes and the external procurement of IT services."
+        },
+        {
+            "title": "condition-15",
+            "content": "In accordance with the contractual terms, an annual review is carried out by Token on a sample basis. The due diligence documents provided by the client are checked for completeness and effectiveness. In the event of negative results, appropriate measures are taken."
+        },
+        {
+            "title": "condition-16",
+            "content": "Pursuant to AT 9 (9) MaRisk, the central outsourcing officer or central outsourcing management must implement control and monitoring processes and prepare a report of significant outsourcing to the Executive Board at least once a year."
+        },
+        {
+            "title": "condition-17",
+            "content": "Pursuant to AT 9 (14) MaRisk an outsourcing register has been implemented including the information specified in the EBA guidelines (EBA/GL/2019/02 Number 54 and 55). The outsourcing register is regularly updated."
+        },
+        {
+            "title": "condition-18",
+            "content": "Pursuant to No. 3.2.5 of BaFin's interpretation and application regulations, the anti-money laundering officer must ensure the appropriateness and effectiveness of the organizational and work instructions established and the company's business and customer-related internal security systems (cf. Section 6 AML-Act) through risk-based monitoring activities as part of a structured approach."
+        },
+        {
+            "title": "condition-19",
+            "content": "According to AT 9 No. 2 MaRisk, the company must prepare a risk analysis for each outsourcing contract which evaluates the risks associated with an outsourcing agreement. Based on this risk analysis, the outsourcing of activities and processes that are material from a risk point of view (material outsourcing) must be determined independently. This is to be carried out on the basis of institution-wide or group-wide uniform framework specifications, both regularly and on an ad hoc basis."
+        },
+        {
+            "title": "condition-20",
+            "content": "Documentation is available which, in the event of a possible false/positive hit from the NorthData database, proves that the evaluation check has taken place and that it can be confirmed that there are no restrictions against the person/company checked."
+        },
+        {
+            "title": "condition-21",
+            "content": "An outsourcing policy has been implemented which, among other things, describes the requirements for the selection, risk determination, maintenance of an outsourcing register, quality indicators, audit rights and ongoing monitoring of outsourcing contracts, as well as definition of responsibilities for the monitoring and approval of outsourcing contracts."
+        },
+        {
+            "title": "condition-22",
+            "content": "There is a contract between Token and client, which is based on standard wording in the form of Terms and Conditions that comply with the legal/supervisory requirements. Contract amendments/changes are documented in a comprehensible manner."
+        },
+        {
+            "title": "condition-23",
+            "content": "Pursuant to AT 9 no. 7 a)-n, the defined agreements must be concluded in the case of material outsourcing. For existing contracts concluded before August 2021, a transitional period until 31 December 2022 applies for the conversion of the corresponding contracts; for contracts concluded after 21 August 2021, the corresponding agreements must already be in place."
+        },
+        {
+            "title": "condition-24",
+            "content": "According to AT 9 No. 12 MaRisk, a central outsourcing officer must be appointed who is supported by a central outsourcing management. The tasks of the outsourcing officer are set out in a corresponding functional description."
+        },
+        {
+            "title": "condition-25",
+            "content": "Terms of Service are provided to the end customer when a payment is released, informing him of his rights regarding data protection, consumer law and his obligations by releasing the payment order."
+        },
+        {
+            "title": "condition-26",
+            "content": "Entries made to the CRM system Hubspot are consistent with the underlying documentation stored."
+        },
+        {
+            "title": "condition-27",
+            "content": "Pursuant to AT 9 (9) ZAG-MaRisk, a company must adequately manage the outsourcing risks and properly monitor the execution of outsourced activities and processes. In the case of material outsourcing, this also includes the ongoing monitoring of the outsourcing company's performance on the basis of criteria to be provided (e.g. key performance indicators, key risk indicators) and contractually agreed information from the outsourcing company; the quality of the services provided must be assessed regularly."
+        },
+        {
+            "title": "condition-28",
+            "content": "Pursuant to AT 9 (2) ZAG-MaRisk, the company must appropriately assess the risks associated with outsourcing. The relevant organisational units must be included in the risk analysis. The results of the individual units must be documented in a comprehensible manner."
+        },
+        {
+            "title": "condition-29",
+            "content": "There are regulations in the form of individual guidelines and process specifications that ensure compliance with the requirements of PSD2 and the ZAG as well as the associated BaFin circulars (in particular circular 03/2022 on the reporting of serious payment security incidents pursuant to Section 54 (1) ZAG). Furthermore, there are regulations for the identification and onboarding of customers focusing on approval restrictions and respective monitoring conditions."
+        },
+        {
+            "title": "condition-30",
+            "content": "Pursuant to AT 4.3 (1) ZAG-MaRisk, each institution must establish appropriate rules for the structural and procedural organisation and subject them to a regular review. The provision on outsourcing management in accordance with AT 9 ZAG-MaRisk must be taken into account."
+        },
+        {
+            "title": "condition-31",
+            "content": "Pursuant to AT 4.2 No. 1 MaRisk, the management must define a sustainable business strategy in which the objectives of the institution for each significant business activity as well as the measures to achieve these objectives are presented. Based on this, the management must establish a consistent risk strategy. The risk strategy shall include the objectives of the risk management of the significant business activities as well as the measures to achieve these objectives."
+        }
+    ]
+}
