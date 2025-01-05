@@ -16,11 +16,8 @@ export async function insertText(text) {
 export async function insertTable(targetCondition, actualSituation, recommendation, implementation, justification, image) {
   const currentDate = new Date();
   const formattedDate = ("0" + currentDate.getDate()).slice(-2) + "/" + ("0" + (currentDate.getMonth() + 1)).slice(-2) + "/" + currentDate.getFullYear();
-  OfficeExtension.config.extendedErrorLogging = true;
 
   Word.run(async function(context) {
-    const body = context.document.body;
-
     //Alibi Paragraph for Table
     var selectionRange = context.document.getSelection();
     var paragraph = selectionRange.insertParagraph("", "Before");
@@ -53,6 +50,40 @@ export async function insertTable(targetCondition, actualSituation, recommendati
     // Add justification
     paragraph.insertBreak("Line", "Before")
     paragraph.insertParagraph("Justification:", Word.InsertLocation.before).font.bold = true;
+
+    return await context.sync();
+  }).catch(function(error) {
+    console.log(error);
+    if (error instanceof OfficeExtension.Error) {
+      console.log("Debug info: " + JSON.stringify(error.debugInfo));
+    }
+  });
+}
+
+export async function insertBullet(bullets) {
+  Word.run(async function(context) {
+    //Alibi Paragraph for Insertion
+    var selectionRange = context.document.getSelection();
+    let first = true;
+    
+    let list = undefined;
+    // Insert bullet points
+    bullets.forEach(bullet => {
+      if(first) {
+        const paragraph = selectionRange.insertParagraph(bullet.title, "Before");
+        list = paragraph.startNewList();
+        paragraph.listItem.level = 0;
+        first = false;
+      }
+      else {
+        let bulletParagraph = list.insertParagraph(bullet.title, "End");
+        bulletParagraph.listItem.level = 0;
+      }
+      bullet.items.forEach(item => {
+        let itemParagraph = list.insertParagraph(item, "End");
+        itemParagraph.listItem.level = 1;
+      });
+    });
 
     return await context.sync();
   }).catch(function(error) {

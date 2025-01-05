@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Button, Field, Textarea, tokens, makeStyles } from "@fluentui/react-components";
 import PropTypes from "prop-types";
 import images from "./images.json";
+import targetJson from "./target_conditions.json";
 
 const useStyles = makeStyles({
   textPromptAndInsertion: {
@@ -24,14 +25,11 @@ const useStyles = makeStyles({
 });
 
 const TableInsertion = (props) => {
-  const [text, setText] = useState("Some text.");
+  const targetconditions = targetJson.targetconditions;
+  const [target, setTarget] = useState(targetconditions[0]);
 
   const handleTableInsertion = async () => {
-    await props.insertTable("","","","","", images.red);
-  };
-
-  const handleTextChange = async (event) => {
-    setText(event.target.value);
+    await props.insertTable(target.content,"","","","", images.red);
   };
 
   const styles = useStyles();
@@ -39,10 +37,12 @@ const TableInsertion = (props) => {
   return (
     <div className={styles.textPromptAndInsertion}>
       <p className={styles.P}>Add Target Table</p>
-      <select value={1} className={styles.dropDown}>
-        <option value={1}>First</option>
+      <select value={target.title} className={styles.dropDown} onChange={(e) => setTarget(targetconditions.find((condition) => condition.title === e.target.value))}>
+        {targetconditions.map((condition) => (
+          <option key={condition.title} value={condition.title}>{condition.title}</option>
+        ))}
       </select>
-      <Button appearance="primary" disabled={false} size="large" onClick={handleTableInsertion}>
+      <Button appearance="primary" disabled={false} size="normal" onClick={handleTableInsertion}>
         Insert Table
       </Button>
       <hr className={styles.HR}></hr>

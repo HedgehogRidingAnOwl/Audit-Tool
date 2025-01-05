@@ -1,15 +1,14 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import Header from "./Header";
-import HeroList from "./HeroList";
 import TableInsertion from "./TableInsertion";
 import { makeStyles } from "@fluentui/react-components";
-import { Ribbon24Regular, LockOpen24Regular, DesignIdeas24Regular } from "@fluentui/react-icons";
-import { insertTable } from "../taskpane";
+import { insertTable, insertBullet } from "../taskpane";
+import BulletInsertion from "./BulletInsertion";
 
 const useStyles = makeStyles({
   root: {
     minHeight: "100vh",
+    padding: "5px",
   },
 });
 
@@ -22,6 +21,7 @@ const App = (props) => {
   return (
     <div className={styles.root}>
       <TableInsertion insertTable={insertTable} />
+      <BulletInsertion insertBullet={insertBullet} />
     </div>
   );
 };

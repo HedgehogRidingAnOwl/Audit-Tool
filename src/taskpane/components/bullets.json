@@ -1,0 +1,29 @@
+{
+    "bullets": [
+        {
+            "title": "Customer and Partner Onboarding",
+            "items": [
+                "KYC-Principles including risk assessment",
+                "Acceptance Procedures",
+                "Onboarding Information",
+                "Availability of contractual agreements"
+            ]
+        },
+        {
+            "title": "Monitoring of Customer Relationship",
+            "items": [
+                "Continuous Customer activity monitoring",
+                "Documentation and reporting of monitoring results (risk assessment review)",
+                "Monitoring of implementation of agreed remediating measures"
+            ]
+        },
+        {
+            "title": "Payment Procedures",
+            "items": [
+                "Accuracy/Timing and Security of individual payment transactions including complaints management",
+                "Charges",
+                "Documentation"
+            ]
+        }
+    ]
+}
